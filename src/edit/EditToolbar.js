@@ -66,6 +66,7 @@ L.EditToolbar = L.Toolbar.extend({
 
 	getActions: function () {
 		return [
+            /*
 			{
 				title: L.drawLocal.edit.toolbar.actions.save.title,
 				text: L.drawLocal.edit.toolbar.actions.save.text,
@@ -78,6 +79,7 @@ L.EditToolbar = L.Toolbar.extend({
 				callback: this.disable,
 				context: this
 			}
+            */
 		];
 	},
 
