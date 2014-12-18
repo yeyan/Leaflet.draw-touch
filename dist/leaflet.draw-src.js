@@ -2707,6 +2707,7 @@ L.EditToolbar = L.Toolbar.extend({
 
 	getActions: function () {
 		return [
+            /*
 			{
 				title: L.drawLocal.edit.toolbar.actions.save.title,
 				text: L.drawLocal.edit.toolbar.actions.save.text,
@@ -2719,6 +2720,7 @@ L.EditToolbar = L.Toolbar.extend({
 				callback: this.disable,
 				context: this
 			}
+            */
 		];
 	},
 
@@ -2884,9 +2886,11 @@ L.EditToolbar.Edit = L.Handler.extend({
 	},
 
 	revertLayers: function () {
+        /*
 		this._featureGroup.eachLayer(function (layer) {
 			this._revertLayer(layer);
 		}, this);
+        */
 	},
 
 	save: function () {
@@ -3151,9 +3155,11 @@ L.EditToolbar.Delete = L.Handler.extend({
 
 	revertLayers: function () {
 		// Iterate of the deleted layers and add them back into the featureGroup
+        /*
 		this._deletedLayers.eachLayer(function (layer) {
 			this._deletableLayers.addLayer(layer);
 		}, this);
+        */
 	},
 
 	save: function () {
