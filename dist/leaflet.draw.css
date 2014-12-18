@@ -324,9 +324,10 @@
 }
 
 .leaflet-nsw {
-    width: 13px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
     display: inline-block;
+    margin-bottom: -2px;
     background-image: url('images/spritesheet.png');
     background-repeat: no-repeat;
 }
