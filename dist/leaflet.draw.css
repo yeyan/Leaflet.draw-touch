@@ -322,3 +322,27 @@
 .leaflet-oldie .leaflet-draw-toolbar {
 	border: 1px solid #999;
 }
+
+.leaflet-nsw {
+    width: 13px;
+    height: 12px;
+    display: inline-block;
+    background-image: url('images/spritesheet.png');
+    background-repeat: no-repeat;
+}
+
+.leaflet-nsw-polygon {
+    background-position: -38px -9px;
+}
+
+.leaflet-nsw-rectangle {
+    background-position: -69px -9px;
+}
+
+.leaflet-nsw-edit {
+    background-position: -159px -9px;
+}
+
+.leaflet-nsw-delete {
+    background-position: -189px -9px;
+}
